@@ -34,6 +34,17 @@ footer {
     color: white;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 12px sans-serif;
+}
+
+td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
