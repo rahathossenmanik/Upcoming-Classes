@@ -8,6 +8,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="StyleSheet.css" rel="stylesheet" type="text/css">
 	<script src="scores.js"></script>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		header {
+			background-color: #009999;
+			padding: 15px;
+			text-align: center;
+			font-size: 35px;
+		}
+		
+		article {
+			float: left;
+			padding: 20px;
+			width: 100%;
+			background-color: #d9e6f2;
+			height: 600px;
+		}
+
+		footer {
+			background-color: #009999;
+			padding: 1px;
+			text-align: center;
+			color: white;
+		}
+	</style>
 </head>
 
 <body onload="changeScore()">
@@ -17,36 +44,21 @@
 		</a>
 	</header>
 	<div class="topnav">
-		<a class="active" href="">Home</a>
+		<a href="">Home</a>
 		<a href="teams">Teams</a>
 		<a href="contact">Contact</a>
 		<a href="about">About</a>
 	</div>
 	<section>
-		<nav>
-			<h1>Overview</h1>
-			<hr />
-			<p>Run: </p><input id="run" readonly value="0"></input>
-			<hr />
-			<p>Over: </p><input id="over" readonly value="0.0"></input>
-			<hr />
-			<p>Wicket: </p><input id="wicket" readonly value="0"></input>
-			<hr />
-		</nav>
 		<article>
 			<h2>Match Scoreboard</h2>
 			<hr/>
-			<p>Run: </p><input id="run" readonly value="0"></input>
-			<p>Over: </p><input id="over" readonly value="0.0"></input>
-			<p>Wicket: </p><input id="wicket" readonly value="0"></input>
-			<p>Bat: </p><input id="bat" readonly value="None"></input>
-			<p>Opposite: </p><input id="opposite" readonly value="None"></input>
-			<p>Ball: </p><input id="ball" readonly value="None"></input>
-			<p>Batting: </p><input id="batting" readonly value="None"></input>
-			<p>Bowling: </p><input id="bowling" readonly value="None"></input>
-			<hr />
-			<h2>Comment Section</h2>
-			<hr/>
+			<p>Run: </p><input id="run" value="0"></input>
+			<p>Over: </p><input id="over" value="0.0"></input>
+			<p>Wicket: </p><input id="wicket" value="0"></input>
+			<p>Bat: </p><input id="bat" value="None"></input>
+			<p>Opposite: </p><input id="opposite" value="None"></input>
+			<p>Ball: </p><input id="ball" value="None"></input>
 		</article>
 	</section>
 
