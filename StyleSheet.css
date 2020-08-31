@@ -13,10 +13,11 @@ header {
 nav {
     float: left;
     width: 20%;
-    height: 1200px;
+    height: 800px;
     background: #006666;
     padding: 10px;
     color: white;
+	font-size: 18px;
 }
 
 article {
@@ -24,7 +25,7 @@ article {
     padding: 20px;
     width: 80%;
     background-color: #d9e6f2;
-    height: 1200px;
+    height: 800px;
 }
 
 footer {
@@ -43,6 +44,10 @@ table {
 td {
     border: 1px black solid;
     padding: 5px;
+}
+
+.sidenav a {
+    color: #003333;
 }
 
 .topnav {
